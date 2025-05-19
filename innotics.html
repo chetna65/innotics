@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innotics APWS </title>
+    <link rel="stylesheet" href="innotics.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<link  rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="txtcontent">
+  <div class="text-block">
+    <div class="heading">
+      <p>CREATE THE...</p> 
+    </div>
+
+    <div class="para2">
+      <p>AUTOMATIC PLANT WATERING SYSTEM</p>
+    </div>
+
+    <div class="para3">
+      <p>The Automatic Plant Watering System is a smart solution that ensures plants receive the right amount of water without human intervention. It uses an Arduino UNO, a soil moisture sensor, and a water pump to monitor soil dryness and automatically water the plant when needed.</p>
+    </div>
+  </div>
+
+  <div class="img"> 
+    <img class="imgdetail" src="plantpngform.jpeg">
+  </div>
+</div>
+
+<br>
+<br>
+
+
+<div class="x">
+    <img class="a" src="leftp.svg">
+  <a href="https://youtu.be/G3e-cpL7ofc?si=kXffQJDvlSc9_Uu6"><img class="b" src="Frame.svg"></a>
+    <img class="c" src="rightp.svg">
+
+</div>
+
+
+<div class="y">
+    code
+</div>
+
+
+
+<div class="code-container">
+<pre><code>
+class BankAccount:
+    def __init__(self, account_number, name, balance=0):
+        self.account_number = account_number
+        self.name = name
+        self.balance = balance
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.balance += amount
+            print(f"{amount} deposited successfully.")
+        else:
+            print("Invalid deposit amount.")
+
+    def withdraw(self, amount):
+        if amount > 0 and amount <= self.balance:
+            self.balance -= amount
+            print(f"{amount} withdrawn successfully.")
+        else:
+            print("Invalid withdrawal amount or insufficient balance.")
+
+    def display_balance(self):
+        print(f"Account Balance: {self.balance}")
+
+class Bank:
+    def __init__(self):
+        self.accounts = {}
+
+    def create_account(self, account_number, name):
+        if account_number in self.accounts:
+            print("Account number already exists!")
+        else:
+            self.accounts[account_number] = BankAccount(account_number, name)
+            print(f"Account for {name} created successfully.")
+
+    def get_account(self, account_number):
+        return self.accounts.get(account_number, None)
+
+def main():
+    bank = Bank()
+    while True:
+        print("\nBank System Menu:")
+        print("1. Create Account")
+        print("2. Deposit Money")
+        print("3. Withdraw Money")
+        print("4. Check Balance")
+        print("5. Exit")
+
+        choice = input("Enter your choice: ")
+        if choice == "1":
+            account_number = input("Enter account number: ")
+            name = input("Enter account holder name: ")
+            bank.create_account(account_number, name)
+        elif choice == "2":
+            account_number = input("Enter account number: ")
+            account = bank.get_account(account_number)
+            if account:
+                amount = float(input("Enter deposit amount: "))
+                account.deposit(amount)
+            else:
+                print("Account not found.")
+        elif choice == "3":
+            account_number = input("Enter account number: ")
+            account = bank.get_account(account_number)
+            if account:
+                amount = float(input("Enter withdrawal amount: "))
+                account.withdraw(amount)
+            else:
+                print("Account not found.")
+        elif choice == "4":
+            account_number = input("Enter account number: ")
+            account = bank.get_account(account_number)
+            if account:
+                account.display_balance()
+            else:
+                print("Account not found.")
+        elif choice == "5":
+            print("Exiting the program. Thank you!")
+            break
+        else:
+            print("Invalid choice. Try again.")
+
+if __name__ == "__main__":
+    main()
+
+</code></pre>
+</div>
+<br>
+<br>
+<br> 
+<div class="h1">
+  List of Componets
+</div>
+
+<div class="z">
+
+</div>
+</body>
+</html>
+
+
