@@ -246,8 +246,8 @@ height: 270px;
 
 .componentList .list div{
     background-color: rgba(212, 222, 254, 1);
-    height: 150px;
-    width: 150px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
 }
 .componentList .list .arduino{
@@ -260,6 +260,20 @@ height: 270px;
     width: 131px;
 }
 
+.componentList .list .relay{
+    height: 98px;
+    width: 131px;
+}
+
+.componentList .list .dht{
+    height: 124px;
+    width: 131px;
+}
+
+.componentList .list .jumper_wires{
+    height: 98px;
+    width: 131px;
+}
 .footer{
     background-color: #030535;
 
