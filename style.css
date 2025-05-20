@@ -3,7 +3,11 @@ body{
     margin: 0.0001px;
     padding: 0.0001px;
 }
+.header{
+    width: 100%;
+}
 .navbar{
+    display: inline-block;
     height: 27px;
     width: 667px;
     position: relative;
@@ -39,7 +43,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 7px;
+    margin-left: -16px;
+
 }
 
 .txtcontent{
