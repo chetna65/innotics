@@ -3,6 +3,43 @@ body{
     margin: 0.0001px;
     padding: 0.0001px;
 }
+.navbar{
+    height: 27px;
+    width: 667px;
+    position: relative;
+    left: 386px;
+    top: 42px;
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+    
+}
+
+.nav-links {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    gap:69px;
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    size: 18px;
+
+}
+
+.socialIcons{
+    height: 21px;
+    width: 128px;
+    position: relative;
+    left: 1217px;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .txtcontent{
     display: flex;
