@@ -127,37 +127,38 @@ color: #030535;
 }
 
 
-/* CSS */
+/* CSS
 .image-row {
   display: flex;
-  flex-wrap: wrap;           /* allow items to wrap to next line */
-  justify-content: center;   /* center horizontally */
-  align-items: center;       /* center vertically */
-  gap: 20px;                 /* space between each item */
-  padding: 20px;
+  flex-wrap: wrap;           
+  justify-content: center;   
+  align-items: center;    
+  gap: 20px;                 
+    padding: 20px;
   background: #dde5ff;
-}
+} */
 
-.image-row img {
+/* .image-row img {
   max-width: 100%;
   height: auto;
-  flex: 1 1 200px;           /* each image takes at least 200px, grows equally */
+  flex: 1 1 200px;           
   object-fit: contain;
-}
+} */
 
 /* On narrow screens, stack them */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .image-row {
     flex-direction: column;
   }
   .image-row img {
     flex: none;
-    width: 80%;              /* each image 80% of container width */
+    width: 80%;             
     margin: 0 auto;
   }
-}
+} */
+ /* each image 80% of container width */
 
-/* .x{
+.x{
   display: flex;
  align-items: center;
   justify-content: center;
@@ -184,7 +185,7 @@ height: 270px;
     height: 270px;
     margin-left: -85px;
     
-} */
+}
 .y{
     color: #030535;
     text-align: center;
