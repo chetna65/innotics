@@ -11,18 +11,19 @@
 <link  rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div class="header">
         <div class="navbar">
             <ul class="nav-links">
-       <li><a href="#">Stories</a></li>         
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Kits</a></li>
-      <li><a href="#">Learning Videos</a></li>
-      <li><a href="#">About Us</a></li>
-    </ul>
+                <li><a href="#">Stories</a></li>         
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Kits</a></li>
+                <li><a href="#">Learning Videos</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
         </div>
 
         <div class="socialIcons">
@@ -180,28 +181,45 @@ if __name__ == "__main__":
 <br>
 <br> 
 <div class="componentList">
-  <p class="h1">List of Components</p>
+  <h2>List of Components</h2>
   <div class="list">
-    <div >
-    <img class="arduino" src="arduino.png">
+
+    <div class="li">
+        <div class="img_bg">
+        <img src="arduino.png">
+        </div>
+        <p>Arduino</p>
     </div>
-  <p>Arduino</p>
-  <div>
-    <img class="moisture" src="moisture.png">
-  </div>
-  <p>Moisture Sensor</p>
-  <div>
-    <img class="relay" src="relay.png">
-  </div>
-  <p>Relay</p>
-  <div>
-    <img class="dht" src="dht.png">
-  </div>
-  <p>DHT</p>
-  <div>
-    <img class="jumper_wires" src="wires.png">
-  </div>
-  <p>Jumper Wires</p>
+    
+  <div class="li">
+        <div class="img_bg">
+        <img src="moisture.png">
+        </div>
+        <p>Moisture Sensor</p>
+    </div>
+  
+  <div class="li">
+        <div class="img_bg">
+        <img src="relay.png">
+        </div>
+        <p>Relay</p>
+    </div>
+  
+  <div class="li">
+        <div class="img_bg">
+        <img src="dht.png">
+        </div>
+        <p>DHT</p>
+    </div>
+  
+  <div class="li">
+        <div class="img_bg">
+            <img src="wires.png">
+        </div>
+        <p>Jumper Wires</p>
+    </div>
+  
+  
   </div>
   
   
@@ -210,19 +228,52 @@ if __name__ == "__main__":
 <div class="robo">
     <img src="robo.png">
 </div>
-<div class="footer">
-    <span class="col1">
-        <p>Join our community of builders,hackers, and thinkers! You'll be the first to know about new videos, products, and deals.</p>
-        <input class="email_box" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
-    </span>
+<footer class="footer">
+    <div class="footer-top">
+      <div class="footer-left">
+        <p><strong><span class="highlight">Join our community</span></strong> of builders, hackers, and thinkers! You’ll be the first to know about new videos, products, and deals.</p>
+        <input type="email" placeholder="Your Email">
+      </div>
 
-    <span class="col2">
-        <div class="contact">
-
+      <div class="footer-right">
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <p><i class="fas fa-envelope"></i> help@gmail.com</p>
+          <p><i class="fas fa-phone"></i> 99-9999-999</p>
         </div>
+        <div class="footer-col">
+          <h4>Our Company</h4>
+          <p>About Us</p>
+          <p>FAQs</p>
+          <p>Build Box Reviews</p>
+          <p>Hack Pack Reviews</p>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <p>Build Box</p>
+          <p>Hack Pack</p>
+          <p>Give a Gift</p>
+        </div>
+        <div class="footer-col">
+          <h4>Legal & Policies</h4>
+          <p>Terms & Conditions</p>
+          <p>Privacy Notice</p>
+          <p>Accessibility</p>
+          <p>Other Policies</p>
+          <p>Don't Share / Sell My Data</p>
+        </div>
+        <div class="footer-col">
+          <h4>Bonus</h4>
+          <p>All Videos</p>
+          <p>Class</p>
+        </div>
+      </div>
+    </div>
 
-    </span>
-</div>
+    <div class="footer-bottom">
+      <p>© 2025 Progressia LLC, - All Rights Reserved</p>
+    </div>
+  </footer>
 </body>
 </html>
 

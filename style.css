@@ -5,18 +5,19 @@ body{
 }
 .header{
     width: 100%;
+    height: 90px;
 }
 .navbar{
     display: inline-block;
-    height: 27px;
+    height: 30px;
     width: 667px;
     position: relative;
+    top: 40px;
     left: 386px;
-    top: 42px;
-     display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
     
 }
 
@@ -35,11 +36,11 @@ body{
 }
 
 .socialIcons{
-    height: 21px;
+    height: 30px;
     width: 128px;
     position: relative;
-    left: 1217px;
-    top: 10px;
+    left: 1400px;
+    top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,7 +161,7 @@ color: #030535;
 
 .x{
   display: flex;
- align-items: center;
+  align-items: center;
   justify-content: center;
   background-color: #DDE5FF;
   padding: 40px;
@@ -169,7 +170,7 @@ color: #030535;
 .a{ 
     margin-right:-14px;
     margin-top: 197px;
-height: 270px;
+    height: 270px;
 }
 
 .b{
@@ -180,7 +181,7 @@ height: 270px;
 
 
 .c{
-     align-items: left;
+    align-items: left;
     margin-top: 129px;
     height: 270px;
     margin-left: -85px;
@@ -205,17 +206,17 @@ height: 270px;
 
 .code-container {
     display: flex;
-  background-color: #1e1e1e;
-  color: #dcdcdc;
-  padding: 20px;
-  border-radius: 15px;
-  font-family: 'Courier New', Courier, monospace;
-  width: 100%;
-  max-width: 900px;
-  height: 200px;
-  overflow: auto;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin: 0 auto;
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+    overflow: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 0 auto;
 }
 
 .code-container pre {
@@ -257,57 +258,133 @@ height: 270px;
     line-height: 45px;
     letter-spacing: -6px;
     margin-bottom: 20px;
-    
     margin-top: 100px;
     margin-bottom: 30px;
+    height: 80px;
 }
-.componentList .h{
+.componentList{
+    padding: 50px 20px;
+    text-align: center;
+}
+.componentList h2{
     color: #030535;
     text-align: center;
     font-family: 'Silkscreen', sans-serif;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
     line-height: 56px;
     letter-spacing: -6px;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
     text-decoration: bold;
 }
 .componentList .list{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
 }
 
-.componentList .list div{
-    background-color: rgba(212, 222, 254, 1);
-    height: 160px;
-    width: 160px;
+.componentList .list .li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 120px;
+}
+
+.componentList .list .li .img{
+    width: 100px;
+   height: 100px;
+   object-fit: contain;
+   padding: 10px;
+}
+
+.componentList .list .li .img_bg{
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-}
-.componentList .list .arduino{
-    height: 98px;
-    width: 131px;
+    background-color: rgba(212, 222, 254, 1);
 }
 
-.componentList .list .moisture{
-    height: 98px;
-    width: 131px;
+.componentList .list .li p{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000;
 }
 
-.componentList .list .relay{
-    height: 98px;
-    width: 131px;
-}
-
-.componentList .list .dht{
-    height: 124px;
-    width: 131px;
-}
-
-.componentList .list .jumper_wires{
-    height: 98px;
-    width: 131px;
+.robo{
+    height: 298px;
+    width: 447px;
+    position: relative;
+    top: 26px;
+    left: 52px;
 }
 .footer{
-    background-color: #030535;
+    background-color: rgba(0, 65, 108, 1);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    padding: 40px 60px;
 
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 40px;
+}
+
+.footer-left p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.footer-left .highlight {
+  color: yellow;
+}
+
+.footer-left input[type="email"] {
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  flex: 2;
+  justify-content: space-between;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-col p {
+  font-size: 14px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.footer-col i {
+  margin-right: 8px;
+}
+
+.footer-bottom {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #ddd;
 }
