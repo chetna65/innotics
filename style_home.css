@@ -1,0 +1,266 @@
+body{
+    background-color:#DDE5FF; 
+    margin: 0.0001px;
+    padding: 0.0001px;
+}
+.header{
+    width: 100%;
+    height: 90px;
+}
+.navbar{
+    display: inline-block;
+    height: 30px;
+    width: 667px;
+    position: relative;
+    top: 40px;
+    left: 386px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    
+}
+
+.nav-links {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    gap:69px;
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    size: 18px;
+
+}
+
+.socialIcons{
+    height: 30px;
+    width: 128px;
+    position: relative;
+    left: 1400px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -16px;
+
+}
+.txtcontent{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    
+}
+
+
+.text-block {
+    flex: 1;
+    max-width: 752px;
+    text-align: left;
+    margin: 0px;
+}
+.heading{
+    
+    color: rgba(0, 9, 180, 1);
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 96px;
+    font-style: bold;
+    font-weight: 600;
+    letter-spacing: -16px;
+    margin-bottom: 0px;
+
+}
+.heading p{
+    margin-bottom: 0px;
+}
+.para2{
+    font-family: "Rubik Doodle Triangles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 96px;
+    padding-left: 32px;
+    width: 597px;
+}
+.para2 p{
+    margin: 0px;
+}
+
+.para3{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-size: 16px;
+    line-height: 33px;
+    align-items: center;
+    width: 450px;
+    left: 120px;
+    letter-spacing: 0.72px;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  background-color: transparent;
+  padding: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Gradient border button */
+.gradient-border {
+  padding: 2px; /* border thickness */
+  border-radius: 999px;
+  background: linear-gradient(45deg, #ff5edf, #4b5efc);
+  display: inline-block;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 999px;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+  background-color: #dee6ff;
+  transition: transform 0.2s ease;
+  display: inline-block;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 0px;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+
+/* Solid border button */
+.solid-border {
+  border: 2px solid #4b5efc;
+  background-color: #dee6ff;
+}
+
+.solid-border:hover {
+  background-color: #ccd7ff;
+}
+
+.scales_bg{
+   position: relative;
+  overflow: hidden;
+    
+}
+
+.rotate_bg{
+  position: absolute;
+  top: -80px;
+  left: -31px;
+min-width: 100vh;
+  background-image: url('Looper\ BG.png');  /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* transform: rotate(-15deg); */
+  z-index: -1; /* Push it behind content */
+}
+.subscription-section {
+  text-align: center;
+  
+  background-color: transparent;
+  width: 100vh;
+  height: 1445px;
+}
+
+.section-title {
+  font-family: 'Press Start 2P', cursive; /* or a pixel font */
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #e8ddff;
+  border-radius: 20px;
+  padding: 1.2rem;
+  width: 230px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 0 8px 8px 0;
+}
+
+.countdown {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 30px;
+  color: black;
+}
+
+.time {
+  color: red;
+}
+
+.product-img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.prices {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.discounted {
+  font-size: 18px;
+}
+
+.original {
+  font-size: 14px;
+  color: red;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.buy-button {
+  background: linear-gradient(to right, #497aff, #7b90ff);
+  color: black;
+  font-weight: bold;
+  padding: 0.6rem 1.5rem;
+  border-radius: 10px;
+  border: 2px solid #497aff;
+  box-shadow: 0 4px #325bdc;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.buy-button:hover {
+  transform: translateY(-2px);
+}
