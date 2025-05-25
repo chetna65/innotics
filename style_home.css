@@ -366,7 +366,7 @@ body{
 .why-we {
   	width: 100%;
   	position: relative;
-  	height: 791px;
+  	height: 900px;
   	overflow: hidden;
   	text-align: left;
   	font-size: 14px;
@@ -420,7 +420,7 @@ body{
   display: flex;
   padding: 0px 54px 91px 45px;
   align-items: center;
-  width: 1150px;
+  width: 1152px;
   height: 358px;
   border-radius: 24px;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -500,37 +500,40 @@ body{
 .bottom_box{
   position: absolute;
   top: 470px;
-  left: 0px;
+  left: 50px;
   display: flex;
   width: 1152px;
   height: 174px;
   padding: 1px 1px 0px 2px;
   justify-content: center;
   align-items: flex-start;
-  gap: 10px;
+  gap: 8.5px;
 }
 
 .creativity{
-  width: 376px;
+  width: 375px;
   height: 174px;
   flex-shrink: 0;
   border-radius: 24px;
   border: 1px solid rgba(0, 0, 0, 0.05);
   background: #192135;
+  padding: 24px 15px 0px 24px;
 }
 
 .innovation{
-  width: 376px;
+  width: 375px;
   height: 174px;
   flex-shrink: 0;
   border-radius: 24px;
   border: 1px solid rgba(0, 0, 0, 0.05);
   background: #192135;
+  padding: 24px 15px 0px 24px;
+
 }
 
 .implementation{
   display: flex;
-  width: 377px;
+  width: 375px;
   height: 174px;
   flex-direction: column;
   align-items: flex-start;
@@ -538,6 +541,187 @@ body{
   border-radius: 24px;
   border: 1px solid rgba(0, 0, 0, 0.05);
   background: #192135;
+  padding: 24px 15px 0px 24px;
+}
+
+.bottom_box_title{
+	color: var(--White, #FFF);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+}
+
+.bottom_box_txt{
+	color: #FFF;
+font-family: Prompt;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.42px;
+}
+
+.inner-home{
+	position: relative;
+	left: 145px;
+	width: 1160px;
+	height: 358px;
+	display: flex;
+	width: 1150px;
+	padding: 0px 35px 28px 34px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 24px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	background: #272D45;
+	overflow: hidden;
+}
+
+.inner-home2{
+	position: absolute;
+	top: -40px;
+	left: 57px;
+	width: 1100px;
+	height: 370px;
+	flex-shrink: 0;
+	border-radius: 20px;
+	border-right: 1.214px solid rgba(0, 0, 0, 0.05);
+	border-bottom: 1.214px solid rgba(0, 0, 0, 0.05);
+	border-left: 1.214px solid rgba(0, 0, 0, 0.05);
+	background: #192135;
+	box-shadow: 0px 1.214px 2.429px 0px rgba(0, 0, 0, 0.05);
+	display: flex;
+
+	}
+
+.home-img{
+  	width: 100%;
+  	position: relative;
+  	border-radius: 12px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 264px;
+  	object-fit: cover;
+	position: absolute;
+	top: 75px;
+	left: 565px;
+
+
+}
+
+.inner-home-txt{
+	width: 470px;
+	position: absolute;
+	top: 58px;
+	left: 29px;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	line-height: 22px;
+	display: flex;
+	font-family: Prompt;
+	color: #fff;
+	text-align: left;
+	align-items: center;
+	height: 149px;
+}
+
+.projects{
+	position: absolute;
+	top: 237px;
+	left: 78px;
+	color:white;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px; /* 150% */
+}
+.kit{
+	position: absolute;
+	top: 301px;
+	left: 320px;
+	color: white;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px; /* 150% */
+}
+.reviews{
+	position: absolute;
+	top: 237px;
+	left: 376px;
+	color: white;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px; /* 150% */
+}
+.code{
+	position: absolute;
+	top: 237px;
+	left: 227px;
+	color: white;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px; /* 150% */
+}
+.competition{
+	position: absolute;
+	top: 301px;
+	left: 148px;
+	color: white;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px; /* 150% */
+}
+
+.projects-img{
+	width: 33px;
+	height: 33px;
+	flex-shrink: 0;
+	position: absolute;
+	top: 233px;
+	left: 39px;
+}
+.code-img{
+	width: 33px;
+	height: 33px;
+	flex-shrink: 0;
+	position: absolute;
+	top: 233px;
+	left: 188px;
+}
+.reviews-img{
+	width: 33px;
+	height: 33px;
+	flex-shrink: 0;
+	position: absolute;
+	top: 233px;
+	left: 337px;
+}
+.competition-img{
+	width: 33px;
+	height: 33px;
+	flex-shrink: 0;
+	position: absolute;
+	top: 291px;
+	left: 112px;
+}
+.kit-img{
+	width: 33px;
+	height: 33px;
+	flex-shrink: 0;
+	position: absolute;
+	top: 291px;
+	left: 284px;
 }
 
 /*Why We*/
@@ -1202,9 +1386,10 @@ body{
   	font-size: 13.1px;
   	color: rgba(0, 0, 0, 0.5);
 }
-.footer {
+.main-footer {
   	width: 100%;
-  	position: relative;
+  	position: absolute;
+	top: 385px;
   	height: 497.6px;
   	mix-blend-mode: normal;
   	text-align: left;
@@ -1212,6 +1397,16 @@ body{
   	color: #fff;
   	font-family: Inter;
     background-color: #00416c;
+}
+.footer{
+	height: 870px;
+	position: relative;
+	top: 100px;
+}
+.robo-hand{
+	position: absolute;
+	top: 51px;
+	left: 1170px;
 }
 
 /* .progressia-llc- {
