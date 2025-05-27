@@ -1,430 +1,52 @@
-
-body {
-  	margin: 0;
-  	line-height: normal;
+body{
+    background-color:#DDE5FF; 
+    margin: 0.0001px;
+    padding: 0.0001px;
+}
+.header{
+    width: 100%;
+    height: 90px;
+}
+.navbar{
+    display: inline-block;
+    height: 30px;
+    width: 667px;
+    position: relative;
+    top: 40px;
+    left: 386px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    
 }
 
+.nav-links {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    gap:69px;
 
-.stories {
-  	position: relative;
 }
-.stories-parent {
-  	position: absolute;
-  	top: 42px;
-  	left: calc(50% - 334px);
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: flex-start;
-  	gap: 69px;
-  	font-family: Poppins;
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    size: 18px;
+
 }
-.mdidiscord-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 36px;
-  	width: 20px;
-  	height: 20px;
-  	overflow: hidden;
+.socialIcons{
+    height: 30px;
+    width: 128px;
+    position: relative;
+    left: 1400px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -16px;
+
 }
-.mdigithub-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 20px;
-  	height: 20px;
-  	overflow: hidden;
-}
-.mditwitter-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 108px;
-  	width: 20px;
-  	height: 20px;
-  	overflow: hidden;
-}
-.mdireddit-icon {
-  	position: absolute;
-  	top: 1px;
-  	left: 72px;
-  	width: 20px;
-  	height: 20px;
-  	overflow: hidden;
-}
-.mdidiscord-parent {
-  	position: absolute;
-  	top: 45px;
-  	left: 1217px;
-  	width: 128px;
-  	height: 21px;
-}
-.vector-icon {
-  	position: absolute;
-  	height: 99.9%;
-  	width: 50.06%;
-  	top: 2.35%;
-  	right: 0.01%;
-  	bottom: -2.25%;
-  	left: 49.93%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-  	object-fit: contain;
-}
-.group-child {
-  	position: absolute;
-  	height: 100%;
-  	width: 100%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 0%;
-  	filter: blur(6.6px);
-  	border-radius: 50%;
-  	background-color: #cbd7ff;
-}
-.ir-1-icon {
-  	position: absolute;
-  	height: 69.14%;
-  	width: 76.54%;
-  	top: 13.58%;
-  	right: 12.35%;
-  	bottom: 17.28%;
-  	left: 11.11%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-  	object-fit: cover;
-}
-.ellipse-parent {
-  	position: absolute;
-  	height: 11.55%;
-  	width: 5.63%;
-  	top: 45.51%;
-  	right: 20.76%;
-  	bottom: 42.94%;
-  	left: 73.61%;
-}
-.ellipse-group {
-  	position: absolute;
-  	height: 11.55%;
-  	width: 5.63%;
-  	top: 66.05%;
-  	right: 24.38%;
-  	bottom: 22.4%;
-  	left: 70%;
-}
-.ellipse-container {
-  	position: absolute;
-  	height: 11.55%;
-  	width: 5.63%;
-  	top: 57.06%;
-  	right: 10.49%;
-  	bottom: 31.38%;
-  	left: 83.89%;
-}
-.vector-icon1 {
-  	position: absolute;
-  	height: 99.9%;
-  	width: 50.06%;
-  	top: 2.35%;
-  	right: 49.94%;
-  	bottom: -2.25%;
-  	left: 0%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.group-div {
-  	position: absolute;
-  	height: 11.55%;
-  	width: 5.63%;
-  	top: 54.49%;
-  	right: 69.38%;
-  	bottom: 33.95%;
-  	left: 25%;
-}
-.ellipse-parent1 {
-  	position: absolute;
-  	height: 11.55%;
-  	width: 5.63%;
-  	top: 70.47%;
-  	right: 76.81%;
-  	bottom: 17.97%;
-  	left: 17.57%;
-}
-.ellipse-parent2 {
-  	position: absolute;
-  	height: 11.55%;
-  	width: 5.63%;
-  	top: 44.51%;
-  	right: 80.76%;
-  	bottom: 43.94%;
-  	left: 13.61%;
-}
-.buy-now-wrapper {
-  	position: absolute;
-  	top: 631px;
-  	left: calc(50% - 88px);
-  	border-radius: 100px;
-  	background-color: #cfd4ff;
-  	border: 2px solid #7881ff;
-  	box-sizing: border-box;
-  	width: 176px;
-  	height: 70px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 0px 32px;
-  	cursor: pointer;
-}
-.frame2 {
-  	position: absolute;
-  	top: -35px;
-  	left: calc(50% - 720px);
-  	width: 1440px;
-  	height: 701px;
-}
-.frame1 {
-  	position: absolute;
-  	height: calc(100% + 131px);
-  	width: 100%;
-  	top: -131px;
-  	right: 0px;
-  	bottom: 0px;
-  	left: 0px;
-  	overflow: hidden;
-}
-.projects1 {
-  	position: absolute;
-  	top: 1429px;
-  	left: calc(50% - 185px);
-  	font-size: 64px;
-  	line-height: 40px;
-  	font-family: Silkscreen;
-}
-.oip-10-1 {
-  	position: absolute;
-  	top: 151px;
-  	left: 566px;
-  	width: 311px;
-  	height: 311px;
-  	object-fit: cover;
-}
-.frame {
-  	position: absolute;
-  	height: calc(100% - 2497px);
-  	top: 118px;
-  	bottom: 2379px;
-  	left: calc(50% - 720px);
-  	width: 1440px;
-  	text-align: center;
-  	font-size: 20px;
-  	font-family: 'Space Grotesk';
-}
-.icon {
-  	position: absolute;
-  	top: 537px;
-  	left: 141px;
-  	width: 325px;
-  	height: 260px;
-  	overflow: hidden;
-  	object-fit: contain;
-}
-.attachment-2-icon {
-  	position: absolute;
-  	height: 1.58%;
-  	width: 3.33%;
-  	top: 30.28%;
-  	right: 71.67%;
-  	bottom: 68.14%;
-  	left: 25%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.card-material-child {
-  	position: absolute;
-  	height: 100%;
-  	width: 100%;
-  	top: 0px;
-  	right: 0px;
-  	bottom: 0px;
-  	left: 0px;
-  	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1);
-  	border-radius: 24px;
-  	background-color: #fff;
-  	border: 1px solid rgba(0, 0, 0, 0.24);
-  	box-sizing: border-box;
-}
-.card-material-item {
-  	position: absolute;
-  	top: -9px;
-  	left: 803px;
-  	width: 100px;
-  	height: 100px;
-  	overflow: hidden;
-}
-.oip-26-1 {
-  	position: absolute;
-  	top: 27px;
-  	left: 21px;
-  	width: 145px;
-  	height: 145px;
-  	object-fit: cover;
-}
-.card-material {
-  	position: absolute;
-  	height: 100%;
-  	width: 100%;
-  	top: 0px;
-  	right: 0px;
-  	bottom: 0px;
-  	left: 0px;
-  	box-shadow: 0px 8px 26.7px rgba(0, 0, 0, 0.25);
-}
-.arduino-is-a-small-computer-m {
-  	margin: 0;
-}
-.arduino-is-a-container {
-  	position: absolute;
-  	top: 62px;
-  	left: 184px;
-  	line-height: 28px;
-  	display: -webkit-inline-box;
-  	overflow: hidden;
-  	text-overflow: ellipsis;
-  	-webkit-line-clamp: 3;
-  	-webkit-box-orient: vertical;
-  	width: 1010px;
-}
-.arduino-uno {
-  	position: relative;
-  	line-height: 24px;
-}
-.arduino-uno-wrapper {
-  	position: absolute;
-  	top: 28px;
-  	left: 184px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: flex-start;
-  	font-size: 32px;
-  	font-family: Poppins;
-}
-.product-02 {
-  	position: absolute;
-  	top: calc(50% - 759px);
-  	left: calc(50% - 600px);
-  	width: 1200px;
-  	height: 200px;
-  	cursor: pointer;
-  	color: #363636;
-}
-.components {
-  	position: absolute;
-  	top: 669px;
-  	left: calc(50% - 245px);
-  	font-size: 64px;
-  	line-height: 40px;
-  	font-family: Silkscreen;
-  	text-align: center;
-}
-.card-material-inner {
-  	position: absolute;
-  	height: 100%;
-  	width: 100%;
-  	top: 0px;
-  	right: 0px;
-  	bottom: 0px;
-  	left: 0px;
-  	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1);
-  	border-radius: 24px;
-  	background-color: #fff;
-  	border: 1px solid rgba(0, 0, 0, 0.28);
-  	box-sizing: border-box;
-}
-.image-icon {
-  	position: absolute;
-  	top: 32px;
-  	left: 24px;
-  	width: 136px;
-  	height: 136px;
-  	overflow: hidden;
-  	object-fit: cover;
-  	mix-blend-mode: multiply;
-}
-.product-3-child {
-  	position: absolute;
-  	top: 160px;
-  	left: 184px;
-  	width: 66px;
-  	height: 16px;
-}
-.product-3 {
-  	position: absolute;
-  	top: calc(50% - 514px);
-  	left: calc(50% - 594px);
-  	width: 1200px;
-  	height: 200px;
-  	cursor: pointer;
-  	color: #363636;
-}
-.product-4 {
-  	position: absolute;
-  	top: calc(50% - 281px);
-  	left: calc(50% - 588px);
-  	width: 1200px;
-  	height: 200px;
-  	cursor: pointer;
-  	color: #363636;
-}
-.hack-pack {
-  	position: absolute;
-  	top: 173px;
-  	left: calc(50% - 416px);
-  	font-size: 128px;
-  	line-height: 40px;
-  	font-family: Silkscreen;
-  	background: linear-gradient(180deg, #030535, #080f9b);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-  	text-align: center;
-  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.learn-more {
-  	position: absolute;
-  	top: 1468px;
-  	left: calc(50% - 48px);
-  	font-size: 16px;
-  	line-height: 24px;
-  	font-weight: 300;
-  	font-family: Poppins;
-  	color: #18006b;
-  	cursor: pointer;
-}
-.explore-all {
-  	position: absolute;
-  	top: 2327px;
-  	left: calc(50% - 44px);
-  	font-size: 16px;
-  	line-height: 24px;
-  	font-weight: 300;
-  	font-family: Poppins;
-  	color: #18006b;
-  	cursor: pointer;
-}
-.frame-div {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	background-color: #00416c;
-  	width: 1440px;
-  	height: 498px;
-  	overflow: hidden;
-}
+/* footer */
 .progressia-llc- {
   	position: absolute;
   	top: 453.08px;
@@ -553,7 +175,7 @@ body {
   	line-height: 19.68px;
   	font-weight: 500;
 }
-.icon1 {
+.icon {
   	position: absolute;
   	top: 0px;
   	left: 0px;
@@ -593,7 +215,7 @@ body {
   	gap: 16.1px;
   	mix-blend-mode: normal;
 }
-.div-footer-column {
+.footer-column2 {
   	position: absolute;
   	top: 50px;
   	left: 741.5px;
@@ -602,7 +224,7 @@ body {
   	mix-blend-mode: normal;
   	font-size: 14.3px;
 }
-.list-list-unstyled {
+.list-unstyled {
   	position: absolute;
   	top: 238.94px;
   	left: 0px;
@@ -621,7 +243,8 @@ body {
   	overflow: hidden;
   	text-overflow: ellipsis;
   	white-space: nowrap;
-  	width: 300px;
+  	width: 466px;
+    height: 54px;
 }
 .input-input-field {
   	width: 300px;
@@ -673,7 +296,7 @@ body {
   	font-size: 25.3px;
   	color: #fff;
 }
-.div-footer-column1 {
+.footer-column1 {
   	position: absolute;
   	top: 56px;
   	left: 56px;
@@ -683,32 +306,20 @@ body {
   	font-size: 13.1px;
   	color: rgba(0, 0, 0, 0.5);
 }
-.div-footer-container {
+.main-footer {
+  	width: 100%;
   	position: absolute;
-  	top: 0px;
-  	left: 52.5px;
-  	width: 1320px;
+	top: 385px;
   	height: 497.6px;
   	mix-blend-mode: normal;
-}
-.frame-parent {
-  	position: absolute;
-  	top: 2534px;
-  	left: -1px;
-  	width: 1440px;
-  	height: 498px;
+  	text-align: left;
   	font-size: 12.2px;
   	color: #fff;
-}
-.hackpack {
-  	width: 100%;
-  	position: relative;
-  	background-color: #dde5ff;
-  	height: 3032px;
-  	overflow: hidden;
-  	text-align: left;
-  	font-size: 18px;
-  	color: #030535;
   	font-family: Inter;
+    background-color: #00416c;
 }
-
+.footer{
+	height: 870px;
+	position: relative;
+	top: 100px;
+}

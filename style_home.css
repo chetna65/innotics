@@ -3,6 +3,7 @@ body{
     margin: 0.0001px;
     padding: 0.0001px;
 }
+/* HEADER */
 .header{
     width: 100%;
     height: 90px;
@@ -45,6 +46,15 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-left: -16px;
+ 
+}
+.looper-bg-icon {
+  	position: absolute;
+  	top: 25px;
+  	left: -326px;
+  	width: 2000px;
+  	height: 1500px;
+  	object-fit: contain;
 
 }
 .txtcontent{
@@ -92,31 +102,23 @@ body{
 .para3{
     font-family: 'Poppins', sans-serif;
     position: relative;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 33px;
     align-items: center;
-    width: 450px;
+    width: 470px;
     left: 120px;
     letter-spacing: 0.72px;
+
 }
 
 .button-container {
+  position: absolute;
+  left: 102px;
+  top: 500px;
   display: flex;
   gap: 20px;
   background-color: transparent;
   padding: 40px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 12px 30px;
-  border-radius: 999px;
-  font-size: 16px;
-  font-weight: 500;
-  text-decoration: none;
-  color: #000;
-  text-align: center;
-  transition: all 0.3s ease;
 }
 
 /* Gradient border button */
@@ -153,30 +155,35 @@ body{
 .solid-border {
   border: 2px solid #4b5efc;
   background-color: #dee6ff;
+  width: 166px;
+  align-content: center;
 }
 
 .solid-border:hover {
   background-color: #ccd7ff;
 }
 
-.scales_bg{
+
+/* .scales_bg{
   position: relative;
   overflow: hidden;
     
-}
+} */
 
-.rotate_bg{
+/* .rotate_bg{
   position: absolute;
   top: -80px;
   left: -31px;
   min-width: 100vh;
-  background-image: url('Looper\ BG.png');  /* Replace with your image path */
+  background-image: url('Looper\ BG.png');  Replace with your image path 
   background-size: cover;
   background-repeat: no-repeat;
-  /* transform: rotate(-15deg); */
-  z-index: -1; /* Push it behind content */
-}
+ transform: rotate(-15deg); 
+  z-index: -1;  Push it behind content 
+} */
 .subscription-section {
+	position: absolute;
+	top: 710px;
   text-align: center;
   align-items: center;
   background-color: transparent;
@@ -362,17 +369,33 @@ body{
   border: 2px solid #394DFF;
   background: #6171FC;
 }
+.ellipse11{
+	position: absolute;
+	left: 167px;
+	top: 131px;
+	height: 210px;
+	width: 233px;
+	object-fit: contain;
 
+}
+.ellipse12{
+	object-fit: contain;
+}
+.ellipse13{
+	object-fit: contain;
+}
+/*whw we*/
 .why-we {
   	width: 100%;
-  	position: relative;
+  	position: absolute;
+	top: 1400px;
   	height: 900px;
   	overflow: hidden;
   	text-align: left;
   	font-size: 14px;
   	color: #fff;
   	font-family: Prompt;
-    left: 11px;
+    left: 40px;
 }
 
 .title_WhyWe{
@@ -421,7 +444,7 @@ body{
   padding: 0px 54px 91px 45px;
   align-items: center;
   width: 1152px;
-  height: 358px;
+  height: 250px;
   border-radius: 24px;
   border: 1px solid rgba(0, 0, 0, 0.05);
   background: #272D45;
@@ -555,17 +578,18 @@ line-height: 24px;
 
 .bottom_box_txt{
 	color: #FFF;
-font-family: Prompt;
-font-size: 14px;
-font-style: italic;
-font-weight: 400;
-line-height: 22px; /* 157.143% */
-letter-spacing: 0.42px;
+	font-family: Prompt;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 22px; /* 157.143% */
+	letter-spacing: 0.42px;
 }
 
 .inner-home{
-	position: relative;
-	left: 145px;
+	position: absolute;
+	top: 2290px;
+	left: 200px;
 	width: 1160px;
 	height: 358px;
 	display: flex;
@@ -1298,7 +1322,7 @@ letter-spacing: 0.42px;
 .footer-column2 {
   	position: absolute;
   	top: 50px;
-  	left: 741.5px;
+  	left: 1000px;
   	width: 604px;
   	height: 397.6px;
   	mix-blend-mode: normal;
@@ -1379,7 +1403,7 @@ letter-spacing: 0.42px;
 .footer-column1 {
   	position: absolute;
   	top: 56px;
-  	left: 56px;
+  	left: 80px;
   	width: 466px;
   	height: 397.6px;
   	mix-blend-mode: normal;
@@ -1401,7 +1425,7 @@ letter-spacing: 0.42px;
 .footer{
 	height: 870px;
 	position: relative;
-	top: 100px;
+	top: 3000px;
 }
 .robo-hand{
 	position: absolute;
