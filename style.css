@@ -449,7 +449,7 @@ body{
   border: 1px solid rgba(0, 0, 0, 0.05);
   background: #272D45;
   overflow: hidden;
-  	flex-shrink: 0;
+  flex-shrink: 0;
   
 }
 
