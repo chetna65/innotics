@@ -1,0 +1,898 @@
+body{
+    background-color:#DDE5FF; 
+    margin: 0.0001px;
+    padding: 0.0001px;
+}
+.header{
+    width: 100%;
+    height: 90px;
+}
+.navbar{
+    display: inline-block;
+    height: 40px;
+    width: 720px;
+    position: relative;
+    top: 25px;
+    left: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+	font-size: 18px;
+    
+}
+
+.nav-links {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    gap:69px;
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    size: 18px;
+
+}
+.socialIcons{
+    height: 50px;
+    width: 128px;
+    position: relative;
+    left: 1450px;
+    top: -30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -16px;
+
+}
+/*HackPack top frame */
+.hackpack-top-frame{
+	display: flex;
+	height: 583px;
+	position: relative;
+	top: 20px;
+}
+.hackpack-heading{
+	position: absolute;
+	left: 370px;
+	width: 900px;
+	font-family: "Silkscreen", sans-serif;
+	font-size: 133px;
+	line-height: 110px;
+	letter-spacing: 2px;
+	text-align: center;
+	display: inline-block;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, #000018, #0000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	-webkit-box-reflect: none;
+}
+/*bg*/
+.robo-arm{
+	position: absolute;
+	top: 680px;
+	left: 200px;
+	width: 325px;
+	height: 260px;
+}
+.hackpack-imgs-frame{
+	position: absolute;
+	top: 50px;
+
+}
+.hackpack-img{
+	position: absolute;
+	top: 151px;
+	left: 650px;
+	height: 350px;
+	width: 350px;
+}
+.left-bg{
+	position: absolute;
+	top: -140px;
+	left: 40px;
+	height: 740px;
+	width: 780px;
+}
+.right-bg{
+	position: absolute;
+	top: -140px;
+	left: 870px;
+	height: 740px;
+	width: 780px;
+}
+.hackpack1{
+	height: 110px;
+	width: 110px;
+	position: absolute;
+	left: 230px;
+	top: 135px;
+	opacity: 1;
+}
+.hackpack2{
+	height: 110px;
+	width: 110px;
+	position: absolute;
+	left: 400px;
+	top: 210px;
+	opacity: 1;
+}
+.hackpack3{
+	height: 110px;
+	width: 110px;
+	position: absolute;
+	left: 300px;
+	top: 340px;
+	opacity: 1;
+}
+.hackpack4{
+	height: 110px;
+	width: 110px;
+	position: absolute;
+	left: 1175px;
+	top: 155px;
+	opacity: 1;
+}
+.hackpack5{
+	height: 110px;
+	width: 110px;
+	position: absolute;
+	left: 1365px;
+	top: 250px;
+	opacity: 1;
+}
+.hackpack6{
+	height: 110px;
+	width: 110px;
+	position: absolute;
+	left: 1110px;
+	top: 300px;
+	opacity: 1;
+}
+
+
+/* .buy-now-button{
+	position: absolute;
+	left: 50px;
+	top: -85px;
+	height: 70px;
+	text-decoration: none;
+	width: 176px;
+	color: #030535;
+	cursor: pointer;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Space Grotesk';
+	background-color: #cfd4ff;
+	border-radius: 100px;
+	
+	
+} */
+.btn-border{
+	position: absolute;
+	left: 740px;
+	top: 510px;
+	border-radius: 100px;
+	width: 176px;
+	height: 70px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Space Grotesk';
+	background-color: #cfd4ff;
+	
+}
+.btn-border a{
+	text-decoration: none;
+	color: #030535;
+	position: absolute;
+	top: 20px;
+	left: 48px;
+}
+/*Components*/
+.comp-heading{
+	position: absolute;
+	left: 580px;
+	top: 720px;
+	font-family: "Silkscreen", sans-serif;
+	font-size: 64px;
+	line-height: 40px;
+}
+.components{
+	position: absolute;
+	top: 900px;
+	align-items: center;
+}
+.comp-txt{
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	width: 950px;
+}
+.title-comps{
+	font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 32px;
+	line-height: 24px;
+	letter-spacing: 0%;
+}
+.comp-para{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	font-family: "Inter", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 300;
+  	font-style: italic;
+	font-size: 18px;
+	line-height: 28px;
+}
+.arduino{
+	position: relative;
+	left: 200px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.arduino img{
+	position: relative;
+	top: 23px;
+	left: 21px;
+	width: 160px;
+	height: 160px;
+}
+.ultrasonic-sensor{
+	position: relative;
+	left: 200px;
+	top: 40px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.ultrasonic-sensor img{
+	position: relative;
+	top: 30px;
+	left: 24px;
+	width: 136px;
+	height: 136px;
+}
+.dht{
+	position: relative;
+	left: 200px;
+	top: 80px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.dht img{
+	position: relative;
+	top: 30px;
+	left: 24px;
+	width: 136px;
+	height: 136px;
+}
+.servo-motor{
+	position: relative;
+	left: 200px;
+	top: 120px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.servo-motor img{
+	position: relative;
+	top: 21.37px;
+	left: 11px;
+	width: 161px;
+	height: 134.078px;
+}
+.sound-sensor{
+	position: relative;
+	left: 200px;
+	top: 160px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.sound-sensor img{
+	position: relative;
+	top: 27px;
+	left: 30px;
+	width: 145px;
+	height: 145px;
+}
+.ir-sensor{
+	position: relative;
+	left: 200px;
+	top: 200px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.ir-sensor img{
+	position: relative;
+	top: 23px;
+	left: 22px;
+	width: 149px;
+	height: 139px;
+}
+.rfid-receiver{
+	position: relative;
+	left: 200px;
+	top: 240px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.rfid-receiver img{
+	position: relative;
+	top: 32px;
+	left: 24px;
+	width: 136px;
+	height: 136px;
+}
+.gas-sensor{
+	position: relative;
+	left: 200px;
+	top: 280px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.gas-sensor img{
+	position: relative;
+	top: 32px;
+	left: 24px;
+	width: 136px;
+	height: 136px;
+}
+.lcd{
+	position: relative;
+	left: 200px;
+	top: 320px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.lcd img{
+	position: relative;
+	top: 32px;
+	left: 24px;
+	width: 136px;
+	height: 136px;
+}
+.pir-sensor{
+	position: relative;
+	left: 200px;
+	top: 360px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.pir-sensor img{
+	position: relative;
+	top: -13px;
+	left: -18px;
+	width: 217px;
+	height: 226px;
+}
+.relay{
+	position: relative;
+	left: 200px;
+	top: 400px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.relay img{
+	position: relative;
+	top: 16px;
+	left: 12px;
+	width: 160px;
+	height: 168px;
+}
+.leds{
+	position: relative;
+	left: 200px;
+	top: 440px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.leds img{
+	position: relative;
+	top: 32px;
+	left: 24px;
+	width: 136px;
+	height: 136px;
+}
+.resistors{
+	position: relative;
+	left: 200px;
+	top: 480px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.resistors img{
+	position: relative;
+	top: 3px;
+	left: 0px;
+	width: 184px;
+	height: 189px;
+}
+.jumper-wires{
+	position: relative;
+	left: 200px;
+	top: 520px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	overflow: hidden;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.jumper-wires img{
+	position: relative;
+	top: 17px;
+	left: -31px;
+	width: 244.127px;
+	height: 162.751px;
+	
+}
+.breadboard{
+	position: relative;
+	left: 200px;
+	top: 560px;
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.breadboard img{
+	position: relative;
+	top: 2px;
+	left: -6px;
+	width: 190px;
+	height: 195px;
+}
+/*Projects*/
+.projects-heading{
+	position: absolute;
+	left: 650px;
+	top: 4550px;
+	font-family: 'Silkscreen',sans-serif;
+	font-size: 64px;
+	line-height: 40px;
+
+}
+.apws-project{
+	position: absolute;
+	top: 4650px;
+	left: 200px;
+	display: flex;
+	width: 1100px;
+	height: 308px;
+	padding: 20px 47px 21px 48px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 24px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	background: #272D45;
+}
+
+.blind-stick-project{
+	position: absolute;
+	top: 5050px;
+	left: 200px;
+	display: flex;
+	width: 1100px;
+	height: 308px;
+	padding: 20px 47px 21px 48px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 24px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	background: #272D45;
+}
+.inner-project-frame{
+	width: 1055px;
+	height: 267px;
+	border-radius: 20px;
+	border-right: 1.214px solid rgba(0, 0, 0, 0.05);
+	border-bottom: 1.214px solid rgba(0, 0, 0, 0.05);
+	border-left: 1.214px solid rgba(0, 0, 0, 0.05);
+	background: #192135;
+	box-shadow: 0px 1.214px 2.429px 0px rgba(0, 0, 0, 0.05);
+}
+.apws-project img{
+	position: absolute;
+	left: 760px;
+	top: 57px;
+	width: 346px;
+	height: 235px;
+	border-radius: 12px;
+}
+.blind-stick-project img{
+	position: absolute;
+	left: 760px;
+	top: 57px;
+	width: 346px;
+	height: 235px;
+	border-radius: 12px;
+}
+
+.project-title{
+	position: absolute;
+	left: 100px;
+	top: 30px;
+	font-size: 36px;
+	line-height: 28px;
+	font-family: "Stick No Bills", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
+	color: white;
+}
+.project-txt{
+	position: absolute;
+	top: 110px;
+	left: 100px;
+	width: 590px;
+	color: white;
+	font-family: "Prompt", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 3%;
+}
+.build-now-btn{
+	position: absolute;
+	left: 540px;
+	top: 250px;
+	width: 175px;
+	height: 46px;
+	color: black;
+	background-color: rgba(119, 157, 255, 1);
+	border-radius: 18px;
+	font-family: "Press Start 2P", system-ui;
+	font-style: normal;
+	line-height: 22px; /* 61.111% */
+	letter-spacing: 3%;
+}
+.all-projects{
+	position: absolute;
+	top: 5470px;
+	left: 750px;
+	font-family: 'Poppins',sans-serif;
+	font-size: 16;
+	font-weight: 300;
+	line-height: 24px;
+	text-decoration: none;
+	color: #18006B;
+}
+
+/* footer */
+.progressia-llc- {
+  	position: absolute;
+  	top: 453.08px;
+  	left: 56px;
+  	line-height: 12px;
+  	font-weight: 500;
+}
+.legal-policies {
+  	position: relative;
+  	line-height: 20.16px;
+  	font-weight: 900;
+}
+.terms-conditions {
+  	position: relative;
+  	line-height: 19.68px;
+  	font-weight: 500;
+}
+.list-px-0 {
+  	width: 192px;
+  	height: 146.4px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 33.1px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	mix-blend-mode: normal;
+  	font-size: 12.2px;
+}
+.div-footer-links {
+  	position: absolute;
+  	top: 157px;
+  	left: 206px;
+  	width: 192px;
+  	height: 182.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 16.1px;
+  	mix-blend-mode: normal;
+}
+.list-px-01 {
+  	width: 192px;
+  	height: 114.7px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 85.7px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	mix-blend-mode: normal;
+  	font-size: 12.2px;
+}
+.div-footer-links1 {
+  	position: absolute;
+  	top: 0px;
+  	left: 412px;
+  	width: 192px;
+  	height: 150.9px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 16.1px;
+  	mix-blend-mode: normal;
+}
+.list-px-02 {
+  	width: 192px;
+  	height: 146.4px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 78.3px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	mix-blend-mode: normal;
+  	font-size: 12.2px;
+}
+.div-footer-links2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 206px;
+  	width: 192px;
+  	height: 182.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 16.1px;
+  	mix-blend-mode: normal;
+}
+.list-px-03 {
+  	width: 192px;
+  	height: 178px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 76.9px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	mix-blend-mode: normal;
+  	font-size: 12.2px;
+}
+.div-footer-links3 {
+  	position: absolute;
+  	top: 120.16px;
+  	left: 0px;
+  	width: 192px;
+  	height: 214.2px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 16.1px;
+  	mix-blend-mode: normal;
+}
+.helpgmailcom {
+  	position: absolute;
+  	top: -0.18px;
+  	left: 28px;
+  	line-height: 19.68px;
+  	font-weight: 500;
+}
+.icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	object-fit: cover;
+  	mix-blend-mode: normal;
+}
+.link-d-flex {
+  	width: 192px;
+  	position: relative;
+  	height: 20px;
+  	mix-blend-mode: normal;
+}
+.list-px-04 {
+  	width: 192px;
+  	height: 52px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 12px;
+  	mix-blend-mode: normal;
+  	font-size: 12.2px;
+}
+.div-footer-links4 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 192px;
+  	height: 88.2px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 16.1px;
+  	mix-blend-mode: normal;
+}
+.footer-column2 {
+  	position: absolute;
+  	top: 50px;
+  	left: 741.5px;
+  	width: 604px;
+  	height: 397.6px;
+  	mix-blend-mode: normal;
+  	font-size: 14.3px;
+}
+.list-unstyled {
+  	position: absolute;
+  	top: 238.94px;
+  	left: 0px;
+  	width: 466px;
+  	height: 27px;
+  	mix-blend-mode: normal;
+}
+.your-email {
+  	position: absolute;
+  	top: 19px;
+  	left: 16px;
+  	line-height: 14px;
+  	font-weight: 500;
+  	display: flex;
+  	align-items: center;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	white-space: nowrap;
+  	width: 466px;
+    height: 54px;
+}
+.input-input-field {
+  	width: 300px;
+  	position: relative;
+  	border-radius: 4px;
+  	background-color: #fff;
+  	height: 52px;
+  	mix-blend-mode: normal;
+}
+.form-newsletterform {
+  	position: absolute;
+  	top: 136.94px;
+  	left: 0px;
+  	width: 466px;
+  	height: 54px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 48.7px 0px 0px;
+  	box-sizing: border-box;
+  	mix-blend-mode: normal;
+}
+.of-builders {
+  	color: #fff;
+}
+.join-our-community-container {
+  	position: relative;
+  	line-height: 30.24px;
+  	font-weight: 600;
+  	color: #fed103;
+}
+.hackers-and-thinkers {
+  	position: relative;
+  	line-height: 30.24px;
+  	font-weight: 600;
+}
+.h4-text-white {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 466px;
+  	height: 120.9px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	mix-blend-mode: normal;
+  	font-size: 25.3px;
+  	color: #fff;
+}
+.footer-column1 {
+  	position: absolute;
+  	top: 56px;
+  	left: 56px;
+  	width: 466px;
+  	height: 397.6px;
+  	mix-blend-mode: normal;
+  	font-size: 13.1px;
+  	color: rgba(0, 0, 0, 0.5);
+}
+.main-footer {
+  	width: 100%;
+  	position: absolute;
+	top: 5000px;
+  	height: 497.6px;
+  	mix-blend-mode: normal;
+  	text-align: left;
+  	font-size: 12.2px;
+  	color: #fff;
+  	font-family: Inter;
+    background-color: #00416c;
+}
+.footer{
+	height: 870px;
+	position: relative;
+	top: 100px;
+}
